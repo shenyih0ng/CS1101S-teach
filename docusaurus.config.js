@@ -26,7 +26,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
+          routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: githubRepoLink,
         },
@@ -84,8 +84,8 @@ const config = {
               },
               {
                 label: "Source Academy Repo",
-                href: "https://github.com/source-academy/"
-              }
+                href: "https://github.com/source-academy/",
+              },
             ],
           },
         ],
