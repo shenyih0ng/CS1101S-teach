@@ -20,6 +20,17 @@ Since these are **in-class** studio sheets, the link will be active only during 
 
 ## Resources
 
+### Documentations
+
+- **Source Languages** (`https://docs.sourceacademy.org/<source_x>`)
+    - Source 1: https://docs.sourceacademy.org/source_1
+    - Source 2: https://docs.sourceacademy.org/source_2
+    - Source 3: https://docs.sourceacademy.org/source_3
+    - Source 4: https://docs.sourceacademy.org/source_4
+
+- **Modules** (`https://docs.sourceacademy.org/<MODULE_NAME>`)
+    - `runes`: https://docs.sourceacademy.org/RUNES
+
 ### Past Year Papers (PYP)
 
 | Type                     | Available | Solutions | Link                                     |
