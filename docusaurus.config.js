@@ -28,7 +28,7 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: githubRepoLink,
+          editUrl: githubRepoLink + "/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

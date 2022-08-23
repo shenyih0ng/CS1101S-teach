@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # Welcome 🎉
 
-Hi everyone, welcome to CS1101S Studio! In each weekly 2-hour long studio sessions, we will be looking questions that reinforces important concepts covered in lectures and missions/quests. We will start off with a **brief recap of lecture content** (if time permits) and move on to the **weekly studio sheets**. In addition to that, there will also be extra questions, in the form of **in-class studio sheets**, that you will be attempting together with your friends in the same studio! 
+Hi everyone, welcome to CS1101S Studio! In each weekly 2-hour long studio sessions, we will be looking questions that reinforces important concepts covered in lectures and missions/quests. We will start off with a **brief recap of lecture content** (if time permits) and move on to the **weekly studio sheets**. In addition to that, there will also be extra questions, in the form of **in-class studio sheets**, that you will be attempting together with your friends in the same studio!
 
 _I know what you are thinking_ but rest assured, studios are more fun that because you will also have the chance to work on **Sumo-Bot** 👊 as one studio group.
 
@@ -23,19 +23,20 @@ Since these are **in-class** studio sheets, the link will be active only during 
 ### Documentations
 
 - **Source Languages** (`https://docs.sourceacademy.org/<source_x>`)
-    - Source 1: https://docs.sourceacademy.org/source_1
-    - Source 2: https://docs.sourceacademy.org/source_2
-    - Source 3: https://docs.sourceacademy.org/source_3
-    - Source 4: https://docs.sourceacademy.org/source_4
+
+  - Source 1: https://docs.sourceacademy.org/source_1
+  - Source 2: https://docs.sourceacademy.org/source_2
+  - Source 3: https://docs.sourceacademy.org/source_3
+  - Source 4: https://docs.sourceacademy.org/source_4
 
 - **Modules** (`https://docs.sourceacademy.org/<MODULE_NAME>`)
-    - `runes`: https://docs.sourceacademy.org/RUNES
+  - `runes`: https://docs.sourceacademy.org/RUNES
 
 ### Past Year Papers (PYP)
 
 | Type                     | Available | Solutions | Link                                     |
 | ------------------------ | --------- | --------- | ---------------------------------------- |
-| **Reading Assessment 1** | ❌        | ❌        | https://tinyurl.com/cs1101s-pyp-ra1      |
+| **Reading Assessment 1** | ✅        | ❌        | https://tinyurl.com/cs1101s-pyp-ra1      |
 | **Mid Terms**            | ❌        | ❌        | https://tinyurl.com/cs1101s-pyp-midterms |
 | **Reading Assessment 2** | ❌        | ❌        | https://tinyurl.com/cs1101s-pyp-ra2      |
 | **Finals**               | ❌        | ❌        | https://tinyurl.com/cs1101s-pyp-finals   |
