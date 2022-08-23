@@ -1,7 +1,7 @@
 // @ts-check
 
-const lightCodeTheme = require("prism-react-renderer/themes/vsLight");
-const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 const githubRepoName = "CS1101S-teach";
 const githubRepoLink = `https://github.com/shenyih0ng/${githubRepoName}`;
