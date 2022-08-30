@@ -31,12 +31,13 @@ Since these are **in-class** studio sheets, the link will be active only during 
 
 - **Modules** (`https://docs.sourceacademy.org/<MODULE_NAME>`)
   - `runes`: https://docs.sourceacademy.org/RUNES
+  - `curves`: https://docs.sourceacademy.org/CURVES
 
 ### Past Year Papers (PYP)
 
 | Type                     | Available | Solutions | Link                                     |
 | ------------------------ | --------- | --------- | ---------------------------------------- |
-| **Reading Assessment 1** | ✅        | ❌        | https://tinyurl.com/cs1101s-pyp-ra1      |
+| **Reading Assessment 1** | ✅        | ✅        | https://tinyurl.com/cs1101s-pyp-ra1      |
 | **Mid Terms**            | ❌        | ❌        | https://tinyurl.com/cs1101s-pyp-midterms |
 | **Reading Assessment 2** | ❌        | ❌        | https://tinyurl.com/cs1101s-pyp-ra2      |
 | **Finals**               | ❌        | ❌        | https://tinyurl.com/cs1101s-pyp-finals   |
