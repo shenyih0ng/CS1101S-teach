@@ -11,7 +11,7 @@ const config = {
   title: "NUS AY22/23 CS1101S",
   url: "https://shenyih0ng.github.io/",
   baseUrl: "/CS1101S-teach/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "shenyih0ng",
