@@ -10,6 +10,16 @@ title: Mastery Check 1
 3. Iterative/Recursive processes
 4. Higher-Order Function (HOF)
 
+## What's going to happen?
+
+1. Come prepared with questions that you guys as a pair will explain to me
+    - Try to ensure that the questions cover the topics that are listed above
+    - Questions can be from missions/quests/your own
+
+2. The goal is to **convince** me that you understand the topics/concepts
+
+3. If you have time do look at the questions below and try to work them out
+
 ## Scope
 
 ### What happens when the following programs are executed?
