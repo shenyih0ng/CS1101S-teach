@@ -41,7 +41,6 @@ function foo(foo) {
     const foo = 2;
   }
 
-  //const foo = 3;
   return foo;
 }
 
@@ -117,7 +116,7 @@ Here is a example of how `hof_head` and `hof_tail` should work:
 
 ```javascript
 const hof_pair = x => y => f => f(x,y);
-const hof_pair_1 = hof_pair(1)(2)
+const hof_pair_1 = hof_pair(1)(2);
 
 hof_head(hof_pair_1) === 1; // true
 hof_tail(hof_pair_1) === 2; // true
@@ -139,7 +138,8 @@ const hof_list_1 = build_hof_list(x => x + 1, 2);
 
 hof_head(hof_list_1) === 1; // true
 hof_head(hof_tail(hof_list_1)) === 2; // true
-is_null(hof_tail(hof_tail(hof_list_1))) === true; // true
+is_null(hof_tail(hof_tail(hof_list_1))); // true
+is_null(hof_tail(hof_tail(hof_list_1))) === true; // will this produce a error 🤔? why/why not?
 ```
 
 #### Q3: Implement `display_hof_list`
@@ -193,3 +193,9 @@ hof_list_3(map_hof_list(x => x + 1));
 
 hof_list_3(map_hof_list(x => x + 1))(display_hof_list); // 2 3 4 5 6 "end"
 ```
+
+:::info
+You are more than welcome to implement `filter_hof_list`, `accumulate_hof_list` and `hof_list_ref` 🔥
+
+These functions should be the `filter`, `accumulate` and `list_ref` equivalent!
+:::
