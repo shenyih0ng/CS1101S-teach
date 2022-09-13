@@ -38,7 +38,7 @@ Since these are **in-class** studio sheets, the link will be active only during 
 | Type                     | Available | Solutions | Link                                     |
 | ------------------------ | --------- | --------- | ---------------------------------------- |
 | **Reading Assessment 1** | ✅        | ✅        | https://tinyurl.com/cs1101s-pyp-ra1      |
-| **Mid Terms**            | ❌        | ❌        | https://tinyurl.com/cs1101s-pyp-midterms |
+| **Mid Terms**            | ✅        | ❌        | https://tinyurl.com/cs1101s-pyp-midterms |
 | **Reading Assessment 2** | ❌        | ❌        | https://tinyurl.com/cs1101s-pyp-ra2      |
 | **Finals**               | ❌        | ❌        | https://tinyurl.com/cs1101s-pyp-finals   |
 
