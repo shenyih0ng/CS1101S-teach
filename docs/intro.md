@@ -32,6 +32,7 @@ Since these are **in-class** studio sheets, the link will be active only during 
 - **Modules** (`https://docs.sourceacademy.org/<MODULE_NAME>`)
   - `runes`: https://docs.sourceacademy.org/RUNES
   - `curves`: https://docs.sourceacademy.org/CURVES
+  - `sound`: https://docs.sourceacademy.org/SOUNDS
 
 ### Past Year Papers (PYP)
 
