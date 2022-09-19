@@ -94,6 +94,15 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        appId: "008E4V7PT1",
+        apiKey: "7a96feff40028a03558c98d7f9c51222",
+        indexName: "cs1101s-teach",
+        contextualSearch: true,
+        externalUrlRegex: "external\\.com|domain\\.com",
+        searchParameters: {},
+        searchPagePath: "search",
+      },
     }),
 };
 
