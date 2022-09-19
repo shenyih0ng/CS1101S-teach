@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>NUS AY22/23 CS1101S</ShortName>
+  <Description>Search NUS AY22/23 CS1101S</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://shenyih0ng.github.io/CS1101S-teach/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://shenyih0ng.github.io/CS1101S-teach/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://shenyih0ng.github.io/CS1101S-teach/opensearch.xml" />
+  <moz:SearchForm>https://shenyih0ng.github.io/CS1101S-teach/</moz:SearchForm>
+</OpenSearchDescription>
