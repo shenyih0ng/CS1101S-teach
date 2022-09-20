@@ -58,6 +58,10 @@ function tower_of_hanoi (n, src, tar, aux) {
 
 > It will be helpful to see how this logic can extend up to `n` disc by looking at the simple case of 2/3 discs.
 
+:::info
+Explanation for the time complexity of the `tower_of_hanoi` can be found [here](/extras/orders-of-growth#tower-of-hanoi-)
+:::
+
 ## `thrice(thrice(thrice))`
 
 Let's first start with `thrice(thrice)` from the studio sheet and recall whats the intuition behind it.
