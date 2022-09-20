@@ -3,7 +3,7 @@ id: studio-5
 title: Studio 5
 ---
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ0rKiDxtz4ljTgrlnCO72UBoXZy52EZO-lHvgG4tsEt9GSp47PB7i0d7rnAeqS6hJsFw5_zaCe5T_1/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ0rKiDxtz4ljTgrlnCO72UBoXZy52EZO-lHvgG4tsEt9GSp47PB7i0d7rnAeqS6hJsFw5_zaCe5T_1/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 > Link to the slides: https://docs.google.com/presentation/d/1-cbtrJNUJ6lfYigeqHXT3hbKlcDZhiM1T3d8dhxGqcI/edit?usp=sharing
 

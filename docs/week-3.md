@@ -3,7 +3,7 @@ id: studio-3
 title: Studio 3
 ---
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSmFjIYOgTunIaE2_3lEJcjU6iboF4sQIsDBwBJkRo82iTALEYHe7uCScBjX_EyA-VlpbbGxsgyqaAT/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSmFjIYOgTunIaE2_3lEJcjU6iboF4sQIsDBwBJkRo82iTALEYHe7uCScBjX_EyA-VlpbbGxsgyqaAT/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 > Link to slides: https://docs.google.com/presentation/d/1ZqOtMH0jjICoDKpQhR1rGQnohbDXmPl6q5LRByRSQAM/edit?usp=sharing
 
