@@ -94,7 +94,7 @@ A good way to calculate the order of growth / time complexity is using the idea 
 function length(lst) {
     return is_null(lst)
             ? 0
-            : 1 + tail(lst);
+            : 1 + length(tail(lst));
 }
 ```
 
