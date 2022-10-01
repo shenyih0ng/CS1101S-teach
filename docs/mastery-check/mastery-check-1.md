@@ -351,3 +351,47 @@ You are more than welcome to implement `filter_hof_list`, `accumulate_hof_list` 
 
 These functions should be the `filter`, `accumulate` and `list_ref` equivalent!
 :::
+
+### Bonus 🎉
+
+#### `filter_hof_list`
+
+```javascript
+function filter_hof_list(func) {
+  function filter_hof_helper(h, t) {
+    if (is_null(t)) {
+      return null;
+    } else if (func(h)) {
+      return hof_pair(h)(t(filter_hof_helper));
+    } else {
+      return t(filter_hof_helper);
+    }
+  }
+
+  return filter_hof_helper;
+}
+```
+
+#### `accumulate_hof_list`
+
+```javascript
+function accumulate_hof_list(func, initial) {
+  function accumulate_hof_helper(h, t) {
+    return is_null(t) ? func(h, initial) : func(h, t(accumulate_hof_helper));
+  }
+
+  return accumulate_hof_helper;
+}
+```
+
+#### `hof_list_ref`
+
+```javascript
+function hof_list_ref(n) {
+  function hof_list_ref_helper(h, t) {
+    return n <= 0 ? h : t(hof_list_ref(n - 1));
+  }
+
+  return hof_list_ref_helper;
+}
+```
