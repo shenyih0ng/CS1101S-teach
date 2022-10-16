@@ -33,6 +33,7 @@ Since these are **in-class** studio sheets, the link will be active only during 
   - `runes`: https://docs.sourceacademy.org/RUNES
   - `curves`: https://docs.sourceacademy.org/CURVES
   - `sound`: https://docs.sourceacademy.org/SOUNDS
+  - `pix_n_flix`: https://docs.sourceacademy.org/PIXNFLIX
 
 ### Past Year Papers (PYP)
 
@@ -40,7 +41,7 @@ Since these are **in-class** studio sheets, the link will be active only during 
 | ------------------------ | --------- | --------- | ---------------------------------------- |
 | **Reading Assessment 1** | ✅        | ✅        | https://tinyurl.com/cs1101s-pyp-ra1      |
 | **Mid Terms**            | ✅        | ✅        | https://tinyurl.com/cs1101s-pyp-midterms |
-| **Reading Assessment 2** | ❌        | ❌        | https://tinyurl.com/cs1101s-pyp-ra2      |
+| **Reading Assessment 2** | ✅        | ❌        | https://tinyurl.com/cs1101s-pyp-ra2      |
 | **Finals**               | ❌        | ❌        | https://tinyurl.com/cs1101s-pyp-finals   |
 
 :::info
