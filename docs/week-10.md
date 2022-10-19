@@ -3,6 +3,10 @@ id: studio-10
 title: Studio 10
 ---
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTwK2Wba5hVEPPt8QOoKz0MFWy7RCBwiLlaVOLXG_ViJ5OPxs9Y_b8NVBM-xi0c4zjyKSmpTApRjD_O/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+> Link to slides: https://docs.google.com/presentation/d/1PF8jc75KtnhN119_Agjktv98ED9SuYepQMa7zYBM354/edit?usp=sharing
+
 ## Studio Worksheets
 
 1. [Studio 10 In-class Worksheet](https://drive.google.com/drive/folders/1e3k3uNEMt8cV09By1WJafUC9jWJYPDgp?usp=sharing)
