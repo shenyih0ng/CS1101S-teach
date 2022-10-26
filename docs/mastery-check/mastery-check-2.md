@@ -18,8 +18,8 @@ title: Mastery Check 2
 ## Environment Model 🌲
 
 ```javascript
-function woo(s) {
-  return is_null(s) ? 0 : head(s) + woo(stream_tail(s));
+function hoo(s) {
+  return is_null(s) ? 0 : head(s) + hoo(stream_tail(s));
 }
 
 function foo(lst) {
@@ -37,8 +37,8 @@ function foo(lst) {
   return is_null(lst) ? null : pair(boo(hoo(head(lst))), () => foo(tail(lst)));
 }
 
-const goo = foo(list(1, 2, 3, 4));
-woo(goo);
+const rary = foo(list(1, 2, 3, 4));
+hoo(rary);
 ```
 
 ### Questions
@@ -85,7 +85,7 @@ Implement the function `stream_permutations` that takes in a **finite** stream o
 
 ```javascript
 // Function Signature (assume elements are int)
-// Stream<Int> ->  Stream<Stream<Int>>
+// Stream[Int] -> Stream[Stream[Int]]
 function stream_permutations(s) {
   // TBI
 }
@@ -120,7 +120,7 @@ const elements = list(1, 2, 3);
 const elements_stream = list_to_stream(elements);
 const permutations = stream_permutations(s);
 
-// Returns you all the permutations of list(1,2,3)
+// Returns you all the permutations of list(1,2,3) in the form of List[List[int]]
 // Since we know the number of permutations = 3! = 6
 // and each permutations has length = 3
 eval_stream_of_streams(permutations, 6, 3);
