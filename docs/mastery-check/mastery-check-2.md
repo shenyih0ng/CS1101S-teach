@@ -37,8 +37,8 @@ function foo(lst) {
   return is_null(lst) ? null : pair(boo(hoo(head(lst))), () => foo(tail(lst)));
 }
 
-const rary = foo(list(1, 2, 3, 4));
-hoo(rary);
+const ray = foo(list(1, 2, 3, 4));
+hoo(ray);
 ```
 
 ### Questions
@@ -51,7 +51,7 @@ hoo(rary);
 
 ## Memoization 🧠
 
-With the knowledge of memoization, it is time we show some love to `tower_of_hanoi` introduced in Studio 4.
+With the knowledge of memoization, it is time we show some love to `tower_of_hanoi` introduced in [Studio 4](/studio-4#tower-of-hanoi-).
 
 ### Q1: Can I memoize `tower_of_hanoi`?
 
@@ -75,7 +75,7 @@ memoized_tower_of_hanoi(100, 1, 3, 2);
 
 The utility of streams is to introduce laziness and deplayed operations. This is particularly helpful for computing long and expensive sequences, since we adhering the principle of _"evaluating it only when I need it"_.
 
-Recall the `permutations` function that was introduced in Studio 6. No doubt it is a (_very_) long and expensive process, therefore, now equipped with the knowledge of **streams**, we can make a **stream of permutations** and use laziness to our advantage.
+Recall the `permutations` function that was introduced in [Studio 6](/studio-6#permutationslst). No doubt it is a (_very_) long and expensive process, therefore, now equipped with the knowledge of **streams**, we can make a **stream of permutations** and use laziness to our advantage.
 
 ### Q1: Implement `stream_permutations`
 
