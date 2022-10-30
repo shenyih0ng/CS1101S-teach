@@ -12,7 +12,7 @@ const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "NUS AY22/23 CS1101S",
-  url: "https://shenyih0ng.github.io/",
+  url: "https://yihongshen.me/",
   baseUrl: "/CS1101S-teach/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
