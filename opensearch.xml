@@ -4,8 +4,8 @@
   <ShortName>NUS AY22/23 CS1101S</ShortName>
   <Description>Search NUS AY22/23 CS1101S</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://shenyih0ng.github.io/CS1101S-teach/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://shenyih0ng.github.io/CS1101S-teach/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://shenyih0ng.github.io/CS1101S-teach/opensearch.xml" />
-  <moz:SearchForm>https://shenyih0ng.github.io/CS1101S-teach/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://yihongshen.me/CS1101S-teach/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://yihongshen.me/CS1101S-teach/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://yihongshen.me/CS1101S-teach/opensearch.xml" />
+  <moz:SearchForm>https://yihongshen.me/CS1101S-teach/</moz:SearchForm>
 </OpenSearchDescription>
