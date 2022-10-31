@@ -98,12 +98,14 @@ const first_permutations = eval_stream(head(permutations), 3); // [X, [Y, [Z, nu
 ```
 
 :::info
+
 Useful functions:
 
 1. `list_to_stream` (pre-declared)
 2. `stream_remove` (pre-declared)
 3. `stream_append_pickle` (Studio 11 In-class)
-   :::
+
+:::
 
 ### Q2: `eval_stream_of_streams`
 
