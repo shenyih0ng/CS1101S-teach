@@ -92,7 +92,7 @@ function stream_permutations(s) {
 
 const elements = list(1, 2, 3);
 const elements_stream = list_to_stream(elements);
-const permutations = stream_permutations(s);
+const permutations = stream_permutations(elements_stream);
 
 const first_permutations = eval_stream(head(permutations), 3); // [X, [Y, [Z, null]]]
 ```
@@ -118,7 +118,7 @@ function eval_stream_of_streams(ss, n, m) {
 
 const elements = list(1, 2, 3);
 const elements_stream = list_to_stream(elements);
-const permutations = stream_permutations(s);
+const permutations = stream_permutations(elements_stream);
 
 // Returns you all the permutations of list(1,2,3) in the form of List[List[int]]
 // Since we know the number of permutations = 3! = 6
