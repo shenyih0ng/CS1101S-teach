@@ -92,18 +92,20 @@ function stream_permutations(s) {
 
 const elements = list(1, 2, 3);
 const elements_stream = list_to_stream(elements);
-const permutations = stream_permutations(s);
+const permutations = stream_permutations(elements_stream);
 
 const first_permutations = eval_stream(head(permutations), 3); // [X, [Y, [Z, null]]]
 ```
 
 :::info
+
 Useful functions:
 
 1. `list_to_stream` (pre-declared)
 2. `stream_remove` (pre-declared)
 3. `stream_append_pickle` (Studio 11 In-class)
-   :::
+
+:::
 
 ### Q2: `eval_stream_of_streams`
 
@@ -118,7 +120,7 @@ function eval_stream_of_streams(ss, n, m) {
 
 const elements = list(1, 2, 3);
 const elements_stream = list_to_stream(elements);
-const permutations = stream_permutations(s);
+const permutations = stream_permutations(elements_stream);
 
 // Returns you all the permutations of list(1,2,3) in the form of List[List[int]]
 // Since we know the number of permutations = 3! = 6
