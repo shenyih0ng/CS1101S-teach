@@ -41,8 +41,8 @@ Since these are **in-class** studio sheets, the link will be active only during 
 | ------------------------ | --------- | --------- | ---------------------------------------- |
 | **Reading Assessment 1** | ✅        | ✅        | https://tinyurl.com/cs1101s-pyp-ra1      |
 | **Mid Terms**            | ✅        | ✅        | https://tinyurl.com/cs1101s-pyp-midterms |
-| **Reading Assessment 2** | ✅        | ❌        | https://tinyurl.com/cs1101s-pyp-ra2      |
-| **Finals**               | ❌        | ❌        | https://tinyurl.com/cs1101s-pyp-finals   |
+| **Reading Assessment 2** | ✅        | ✅        | https://tinyurl.com/cs1101s-pyp-ra2      |
+| **Finals**               | ✅        | ❌        | https://tinyurl.com/cs1101s-pyp-finals   |
 
 :::info
 Past year papers for each assessment/exam will be made available once it's closer to the actual date of the test. Solutions will be available once it's **much** closer to the actual test, this is so that you can have time to think about your answers before referring to the suggested solutions.
