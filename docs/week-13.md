@@ -3,6 +3,10 @@ id: studio-13
 title: Studio 13 (The Final Studio)
 ---
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTTkVPuAu-MF65qd0JZY8daqURdvKZBqMbdC9HZ7-ZTxaVxoJ3eyH-Ckg-dX85Zz1EU8VEZip8k4t6g/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+> Link to slides: https://docs.google.com/presentation/d/1nkga39gcsG5wLHRhydpZe5cFsx3L-L99vSjYIGKW3Yg/edit?usp=sharing
+
 ## Extra Questions
 
 ### Q1: `n_bonacci(n)`
