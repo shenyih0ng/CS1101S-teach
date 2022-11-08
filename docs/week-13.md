@@ -44,7 +44,59 @@ eval_stream(n_bonacci(3), 10); // first 10 terms of the tribonacci series
 Are you able to make use of `n_bonacci(n-1)`?
 :::
 
-<details><summary><b>Answers</b></summary></details>
+<details><summary><b>Answers</b></summary>
+
+We can actually make use of **stream formulation** to create a `n_bonacci` stream. The intuition lies in how we can make use of a `n_bonacci(n-1)` stream to form a `n_bonacci(n)` stream.
+
+**The first `n` number of a `n_bonacci(n)` stream can always be found in the `n_bonacci(n-1)` stream.**
+
+```javascript
+function add_streams(s1, s2) {
+  return is_null(s1)
+    ? s2
+    : is_null(s2)
+    ? s1
+    : pair(head(s1) + head(s2), () =>
+        add_streams(stream_tail(s1), stream_tail(s2))
+      );
+}
+
+function add_n_streams(streams) {
+  return accumulate((curr, acc) => add_streams(acc, curr), null, streams);
+}
+
+function take_n_and_replace(stream, n, replace_stream) {
+  return n <= 1
+    ? pair(head(stream), replace_stream)
+    : pair(head(stream), () =>
+        take_n_and_replace(stream_tail(stream), n - 1, replace_stream)
+      );
+}
+
+const fibonacci_stream = pair(0, () =>
+  pair(1, () => add_streams(fibonacci_stream, stream_tail(fibonacci_stream)))
+);
+
+function n_bonacci(n) {
+  function helper(stream, count) {
+    return count <= 1
+      ? pair(stream, null)
+      : pair(stream, helper(stream_tail(stream), count - 1));
+  }
+
+  if (n === 2) {
+    return fibonacci_stream;
+  } else {
+    const n_minus_one_bonacci = n_bonacci(n - 1);
+    const start = take_n_and_replace(n_minus_one_bonacci, n, () =>
+      add_n_streams(helper(start, n))
+    );
+    return start;
+  }
+}
+```
+
+</details>
 
 ### Q2: `find_num_paths(checkpoints)`
 
@@ -66,10 +118,89 @@ const checkpoints_2 = list(pair(0, 0), pair(2, 3), pair(4, 6));
 find_num_paths(checkpoints_2); // 100
 ```
 
-<details><summary><b>Answers</b></summary></details>
+<details><summary><b>Answers</b></summary>
+
+```javascript
+function find_num_paths_helper(x, y) {
+  if (x === 0 || y === 0) {
+    return 1;
+  } else {
+    return find_num_paths_helper(x - 1, y) + find_num_paths_helper(x, y - 1);
+  }
+}
+
+function find_num_paths(checkpoints) {
+  if (is_null(tail(checkpoints))) {
+    return 1;
+  } else {
+    const point_A = head(checkpoints);
+    const point_B = head(tail(checkpoints));
+    const normalized = pair(
+      head(point_B) - head(point_A),
+      tail(point_B) - tail(point_A)
+    );
+
+    return (
+      find_num_paths_helper(head(normalized), tail(normalized)) *
+      find_num_paths(tail(checkpoints))
+    );
+  }
+}
+```
+
+</details>
 
 #### Part 2
 
 **Can we memoize `find_num_paths`? If no, why? If yes, why?**
 
-<details><summary><b>Answers</b></summary></details>
+<details><summary><b>Answers</b></summary>
+
+```javascript
+const mem = [];
+
+function read(n, k) {
+  return mem[n] === undefined ? undefined : mem[n][k];
+}
+
+function write(n, k, value) {
+  if (mem[n] === undefined) {
+    mem[n] = [];
+  }
+  mem[n][k] = value;
+}
+
+function find_num_paths_helper(x, y) {
+  if (x === 0 || y === 0) {
+    return 1;
+  } else if (!is_undefined(read(x, y))) {
+    return read(x, y);
+  } else {
+    const result =
+      find_num_paths_helper(x - 1, y) + find_num_paths_helper(x, y - 1);
+    write(x, y, result);
+
+    return result;
+  }
+}
+
+function find_num_paths(checkpoints) {
+  if (is_null(tail(checkpoints))) {
+    return 1;
+  } else {
+    const point_A = head(checkpoints);
+    const point_B = head(tail(checkpoints));
+    const normalized = pair(
+      head(point_B) - head(point_A),
+      tail(point_B) - tail(point_A)
+    );
+
+    return (
+      find_num_paths_helper(head(normalized), tail(normalized)) *
+      find_num_paths(tail(checkpoints))
+    );
+  }
+}
+```
+
+</details>
